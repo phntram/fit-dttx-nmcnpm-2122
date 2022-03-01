@@ -27,3 +27,6 @@ switch(m){
     default:
         console.log("Dữ liệu không hợp lệ.");
 }
+
+//operatpr with condition
+let k = (n % 2) === 0 ? true : false;
