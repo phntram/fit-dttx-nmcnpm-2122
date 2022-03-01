@@ -2,7 +2,7 @@
  * Khai báo biến trong Javascript -> ECMA Script(ES)
  */
 
-console.log('Hello World!!!');
+console.log("Hello World!!!");
 
 //Khai báo hằng số
 const a = 100;
@@ -24,21 +24,20 @@ console.log("let b =", b);
 console.log("var c =", c);
 
 flag = true;
-if(flag == true){
-    console.log("=> a =", a);
-    console.log("=> b =", b);
-    console.log("=> c =", c);
+if (flag == true) {
+  console.log("=> a =", a);
+  console.log("=> b =", b);
+  console.log("=> c =", c);
 
-    const d = 777;  //const -> hằng số - cục bộ trong 1 code block
-    let e = 666;    //let -> biến cục bộ trong 1 code block
-    var f = 555;    //var -> biến toàn cục trong 1 file
+  const d = 777; //const -> hằng số - cục bộ trong 1 code block
+  let e = 666; //let -> biến cục bộ trong 1 code block
+  var f = 555; //var -> biến toàn cục trong 1 file
 
-    console.log("=> d =", d);
-    console.log("=> e =", e);
-    console.log("=> f =", f);
+  console.log("=> d =", d);
+  console.log("=> e =", e);
+  console.log("=> f =", f);
 }
 
 // console.log("=> d =", d);
 // console.log("=> e =", e);
 console.log("=> f =", f); // -> do f được khai báo kiểu var (toàn cục) nên ngoài code block của IF thì f vẫn có thể được truy xuất
-

@@ -18,8 +18,8 @@ SayHi();
 
 //Định nghĩa hàm mũi tên (Arrow function)
 const SayWelcome = () => {
-    console.log("Welcome to Introduce Software Engineering");
-}
+  console.log("Welcome to Introduce Software Engineering");
+};
 
 SayWelcome();
 
@@ -28,5 +28,5 @@ console.log("--------------------");
 const Sum = (a, b) => a + b;
 console.log(Sum(4, 5));
 
-const Double = a => a * 2;
+const Double = (a) => a * 2;
 console.log(Double(4));

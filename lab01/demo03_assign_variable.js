@@ -15,5 +15,3 @@ console.log("(int) number =", number);
 //Chuyển đổi chuỗi (string) thành số thực (float)
 number = parseFloat("123.45");
 console.log("(float) number =", number);
-
-//
